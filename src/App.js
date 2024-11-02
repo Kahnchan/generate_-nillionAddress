@@ -31,7 +31,7 @@ export default function Home() {
             setWallets(generatedWallets);
         } catch (error) {
             console.error("Error:", error);
-            alert("生成地址时出错: " + error.message);
+            alert("生成地址时出错: " + (error.message || JSON.stringify(error)));
         }
     };
 
