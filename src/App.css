@@ -36,3 +36,86 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.input-textarea,
+.output-textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: none; /* 禁止调整大小 */
+}
+
+.generate-button {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* 绿色背景 */
+  color: white; /* 白色文字 */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.generate-button:hover {
+  background-color: #45a049; /* 悬停时的背景颜色 */
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.input-textarea,
+.output-textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: none; /* 禁止调整大小 */
+}
+
+.count-input {
+  width: 100%; /* 使输入框宽度为100% */
+  padding: 10px; /* 内边距 */
+  margin: 10px 0; /* 外边距 */
+  border: 1px solid #ccc; /* 边框 */
+  border-radius: 4px; /* 圆角 */
+  font-size: 16px; /* 字体大小 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+  transition: border-color 0.3s; /* 边框颜色过渡 */
+}
+
+.count-input:focus {
+  border-color: #4CAF50; /* 聚焦时的边框颜色 */
+  outline: none; /* 去掉默认的轮廓 */
+}
+
+.generate-button {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* 绿色背景 */
+  color: white; /* 白色文字 */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s; /* 背景颜色过渡 */
+}
+
+.generate-button:hover {
+  background-color: #45a049; /* 悬停时的背景颜色 */
+}
